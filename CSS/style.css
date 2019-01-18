@@ -1,0 +1,53 @@
+body {
+    font-family: 
+}
+
+nav {
+	display: flex;
+	justify-content: space-around;
+}
+
+.site-navigation {
+	display: flex;
+}
+
+.site-navigation-item {
+	margin: 10px;
+}
+
+.visually-hidden {
+	display: none;
+}
+
+.advantage-list {
+	display: flex;
+	justify-content: space-around;
+}
+
+.advantage-item {
+    margin: 25px;
+}
+
+.advantages {
+   float: left;
+   width: 100%;
+   background-color: wheat;
+
+}
+
+.news {
+	background-color: skyblue;
+	float: left;
+	width: 50%;
+}
+
+.contacts {
+	background-color: green;
+	width: 100%;
+	clear: both;
+}
+
+.main-footer {
+	justify-content: space-between;
+	display: flex;
+}

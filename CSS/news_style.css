@@ -1,0 +1,66 @@
+.site-navigation {
+	display: flex;
+}
+
+.site-navigation-item {
+	margin: 10px;
+}
+
+.visually-hidden {
+	display: none;
+}
+
+.advantage-list {
+	display: flex;
+	justify-content: space-around;
+}
+
+.advantage-item {
+    margin: 25px;
+}
+
+.advantages {
+   float: left;
+   width: 100%;
+   background-color: wheat;
+
+}
+
+.news {
+	background-color: skyblue;
+	width: 100%;
+}
+.main-footer {
+	justify-content: space-between;
+	display: flex;
+}
+.row{
+	display: flex;
+  	flex-wrap: wrap;
+  	padding: 0 4px;
+	justify-content: center;
+	 margin: 0 auto;
+  overflow: auto;
+}
+.column{
+ 	flex: 25%;
+  	max-width: 25%;
+  	padding: 0 4px;
+  	
+}
+.column img{
+	vertical-align: middle;
+	width: 250px;
+}
+div.polaroid {
+  width: 300px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+ 
