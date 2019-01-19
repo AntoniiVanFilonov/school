@@ -1,15 +1,27 @@
 body {
 	font-family: 'Noto Serif', serif;
-    font-family: 'PT Sans Narrow', sans-serif;
-    src: url(D:\Лучший\school\Fonts\PT_Sans-Narrow-Web-Regular);
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: 'Pacifico', cursive;
+  font-family: 'Lobster', cursive;
+  src: url(D:\Лучший\school\Fonts\PT_Sans-Narrow-Web-Regular);
 }
 
-h1, p {
+.coursive-titles {
+  font-family: 'Lobster';
+  vertical-align: middle;
+}
+
+p {
 	font-family: 'PT Sans Narrow';
 }
 
 p{
     font-size: 20px;
+}
+
+.main-header {
+  border-bottom: solid #C3C3C3 2px;
+  height: 80px;
 }
 
 article img{
@@ -55,16 +67,12 @@ nav {
 	width: 100%;
 }
 
-.contacts {
-	background-color: green;
-	width: 100%;
-	clear: both;
-}
 
 .main-footer {
 	justify-content: space-between;
 	display: flex;
 	clear: both;
+  border-top: solid #C3C3C3 2px; 
 }
 ul{
 	list-style-type: none;
@@ -86,7 +94,6 @@ a: hover {
 
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 /*Just the background stuff */
-
 
 /* The card */
 .card {
@@ -110,9 +117,6 @@ a: hover {
   top: -30px;
   height: 320px;
   width: 530px;
-  -webkit-box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.75);
-  box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.75);
   overflow: hidden;
 }
 
@@ -123,10 +127,12 @@ img.left {
   left: 50%;
   top: 50%;
   height: auto;
-  width: 100%;
+  width: 99%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+  border-radius: 5px;
+  border: solid #C3C3C3 2px;
 }
 
 /* Right side of the card */
@@ -141,21 +147,6 @@ h1 {
   color: #4B4B4B;
 }
 
-.author {
-  background-color: #9ECAFF;
-  height: 30px;
-  width: 110px;
-  border-radius: 20px;
-}
-
-.author > img {
-  padding-top: 5px;
-  margin-left: 10px;
-  float: left;
-  height: 20px;
-  width: 20px;
-  border-radius: 50%;
-}
 
 h2 {
   padding-top: 8px;

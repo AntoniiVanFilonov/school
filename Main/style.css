@@ -55,12 +55,6 @@ nav {
 	width: 100%;
 }
 
-.contacts {
-	background-color: green;
-	width: 100%;
-	clear: both;
-}
-
 .main-footer {
 	justify-content: space-between;
 	display: flex;
@@ -71,13 +65,30 @@ ul{
 
 .footer-social {
 	display: flex;
+	position: absolute;
+	right: 50%;
+}
+
+.footer-slogan {
+	position: absolute;
+	right: 50.25%;
 }
 
 a {
 	text-decoration: none;
 	color: black;
+	padding: 2px;
 }
 
-a: hover {
+a:hover {
 	text-decoration: underline;
+}
+
+@media and (max-width: 1440px) {
+	.site-navigation{
+        display: none;
+	}
+	.site-navigation:focus {
+        display: block;
+	}
 }
