@@ -1,3 +1,26 @@
+body {
+	font-family: 'Noto Serif', serif;
+    font-family: 'PT Sans Narrow', sans-serif;
+    src: url(D:\Лучший\school\Fonts\PT_Sans-Narrow-Web-Regular);
+}
+
+h1, p {
+	font-family: 'PT Sans Narrow';
+}
+
+p{
+    font-size: 20px;
+}
+
+article img{
+	border-radius: 10px;
+}
+
+nav {
+	display: flex;
+	justify-content: space-around;
+}
+
 .site-navigation {
 	display: flex;
 }
@@ -28,39 +51,158 @@
 
 .news {
 	background-color: skyblue;
+	float: left;
 	width: 100%;
 }
+
+.contacts {
+	background-color: green;
+	width: 100%;
+	clear: both;
+}
+
 .main-footer {
 	justify-content: space-between;
 	display: flex;
+	clear: both;
 }
-.row{
-	display: flex;
-  	flex-wrap: wrap;
-  	padding: 0 4px;
-	justify-content: center;
-	 margin: 0 auto;
-  overflow: auto;
-}
-.column{
- 	flex: 25%;
-  	max-width: 25%;
-  	padding: 0 4px;
-  	
-}
-.column img{
-	vertical-align: middle;
-	width: 250px;
-}
-div.polaroid {
-  width: 300px;
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-bottom: 25px;
+ul{
+	list-style-type: none;
 }
 
-div.container {
-  text-align: center;
-  padding: 10px 20px;
+.footer-social {
+	display: flex;
+	clear: both;
 }
- 
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a: hover {
+	text-decoration: underline;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+/*Just the background stuff */
+
+
+/* The card */
+.card {
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  height: 450px;
+  width: 900px;
+  margin: 70px auto;
+  background-color: #FFF;
+  -webkit-box-shadow: 10px 10px 93px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 93px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 93px 0px rgba(0, 0, 0, 0.75);
+
+}
+
+/* Image on the left side */
+.thumbnail {
+  float: left;
+  position: relative;
+  left: 30px;
+  top: -30px;
+  height: 320px;
+  width: 530px;
+  -webkit-box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.75);
+  overflow: hidden;
+}
+
+
+/*object-position: center; */
+img.left {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: auto;
+  width: 100%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+/* Right side of the card */
+.right {
+  margin-left: 590px;
+  margin-right: 20px;
+}
+
+h1 {
+  padding-top: 15px;
+  font-size: 1.3rem;
+  color: #4B4B4B;
+}
+
+.author {
+  background-color: #9ECAFF;
+  height: 30px;
+  width: 110px;
+  border-radius: 20px;
+}
+
+.author > img {
+  padding-top: 5px;
+  margin-left: 10px;
+  float: left;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+
+h2 {
+  padding-top: 8px;
+  margin-right: 6px;
+  text-align: right;
+  font-size: 0.8rem;
+}
+
+.separator {
+  margin-top: 10px;
+  border: 1px solid #C3C3C3;
+}
+
+p {
+  text-align: justify;
+  padding-top: 10px;
+  font-size: 0.95rem;
+  line-height: 150%;
+  color: #4B4B4B;
+}
+
+/* DATE of release */
+h5 {
+  position: absolute;
+  left: 30px;
+  bottom: -120px;
+  font-size: 6rem;
+  color: #C3C3C3;
+}
+
+h6 {
+  position: absolute;
+  left: 30px;
+  bottom: -55px;
+  font-size: 2rem;
+  color: #C3C3C3;
+}
+
+/* Those futur buttons */
+ul {
+  margin-left: 250px;
+}
+
+li {
+  display: inline;
+  list-style: none;
+  padding-right: 40px;
+  color: #7B7B7B;
+}
+
