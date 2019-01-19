@@ -1,3 +1,17 @@
+body {
+	font-family: 'Noto Serif', serif;
+    font-family: 'PT Sans Narrow', sans-serif;
+    src: url(D:\Лучший\school\Fonts\PT_Sans-Narrow-Web-Bold);
+}
+
+h1, p {
+	font-family: 'PT Sans Narrow';
+}
+
+p{
+    font-size: 20px;
+}
+
 article img{
 	border-radius: 10px;
 }
@@ -57,4 +71,9 @@ ul{
 
 .footer-social {
 	display: flex;
+}
+
+a {
+	text-decoration: none;
+	color: black;
 }
