@@ -1,7 +1,7 @@
 body {
 	font-family: 'Noto Serif', serif;
     font-family: 'PT Sans Narrow', sans-serif;
-    src: url(D:\Лучший\school\Fonts\PT_Sans-Narrow-Web-Bold);
+    src: url(D:\Лучший\school\Fonts\PT_Sans-Narrow-Web-Regular);
 }
 
 h1, p {
@@ -76,4 +76,8 @@ ul{
 a {
 	text-decoration: none;
 	color: black;
+}
+
+a: hover {
+	text-decoration: underline;
 }
