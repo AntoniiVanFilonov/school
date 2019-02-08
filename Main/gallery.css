@@ -113,7 +113,7 @@ label, a{ /*при наведении на стрелки или переклю�
 }
 
 #active label:hover{ /*поведение чекбокса при наведении*/
-  background: #76c8ff;
+  background: #505050;
   border-color: #777 !important; /*выполнение в любом случае*/
 }
 
@@ -123,7 +123,7 @@ label, a{ /*при наведении на стрелки или переклю�
 #switch3:checked ~ #active label:nth-child(3),
 #switch4:checked ~ #active label:nth-child(4),
 #switch5:checked ~ #active label:nth-child(5){
-  background: #18a3dd;
+  background: #101010;
   border-color: #18a3dd !important;
 }
 

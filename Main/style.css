@@ -6,10 +6,17 @@ body {
   src: url(D:\Лучший\school\Fonts\PT_Sans-Narrow-Web-Regular);
 }
 
+a.coursive-titles {
+	margin: 0;
+	padding: 0;
+	align-items: center;
+}
+
 h1.coursive-titles {
   font-family: 'Lobster';
   vertical-align: middle;
 }
+
 
 h2 {
 	font-family: 'Roboto';
@@ -46,7 +53,8 @@ p.footer-paragraph {
 
 .main-header {
   border-bottom: solid #C3C3C3 2px;
-  height: 80px;
+  min-height: auto;
+  max-height: 100px;
 }
 
 article img{
@@ -60,6 +68,8 @@ nav {
 
 .site-navigation {
 	display: flex;
+	margin: 0;
+	align-items: center;
 }
 
 .site-navigation-item {
