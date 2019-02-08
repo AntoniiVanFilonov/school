@@ -6,15 +6,11 @@ body {
   src: url(D:\Лучший\school\Fonts\PT_Sans-Narrow-Web-Regular);
 }
 
-a.coursive-titles {
-	margin: 0;
-	padding: 0;
-	align-items: center;
-}
-
 h1.coursive-titles {
   font-family: 'Lobster';
   vertical-align: middle;
+  margin: 0;
+  padding: 0;
 }
 
 
@@ -40,6 +36,7 @@ p.all-news {
 
 p.news-paragraph {
     font-size: 17px;
+    text-align: left;
 }
 
 p.date {
@@ -135,11 +132,7 @@ a:hover {
 	margin: 10px;
 }
 
-@media and (max-width: 1440px) {
-	.site-navigation{
-        display: none;
-	}
-	.site-navigation:focus {
-        display: block;
-	}
+time {
+	text-align: left
 }
+
