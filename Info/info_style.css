@@ -4,7 +4,7 @@ body {
   font-family: 'PT Sans Narrow', sans-serif;
   font-family: 'Pacifico', cursive;
   font-family: 'Lobster', cursive;
-  
+
  
   src: url(D:\Лучший\school\Fonts\PT_Sans-Narrow-Web-Regular);
 }
@@ -21,7 +21,7 @@ h2 {
 	font-family: 'Roboto';
 }
 h2.h2-info{
-	font-size: 35px;
+	font-size: 27px;
 }
 
 p {
@@ -30,7 +30,7 @@ p {
 
 p.info-paragraph {
 	font-family: 'Roboto';
-	font-size: 25px;
+	font-size: 20px;
 }
 p.info-paragraph2 {
 	font-family: 'Roboto';
