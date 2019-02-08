@@ -1,6 +1,6 @@
 body {
   font-family: 'Roboto', serif;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: 'Neucha';
   font-family: 'Pacifico', cursive;
   font-family: 'Lobster', cursive;
   src: url(D:\Лучший\school\Fonts\PT_Sans-Narrow-Web-Regular);
@@ -27,7 +27,7 @@ p {
 }
 
 .footer-paragraph {
-  font-family: 'PT Sans Narrow';
+  font-family: 'Neucha';
   color: #4B4B4B; 
 }
 
