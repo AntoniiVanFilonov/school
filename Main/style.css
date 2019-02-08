@@ -6,7 +6,11 @@ body {
   src: url(D:\Лучший\school\Fonts\PT_Sans-Narrow-Web-Regular);
 }
 
-h1.coursive-titles {
+h1{
+  margin: 0;
+}
+
+.coursive-titles {
   font-family: 'Lobster';
   vertical-align: middle;
   margin: 0;
@@ -17,7 +21,7 @@ p {
 	padding: 10px;
 }
 
-p.footer-paragraph {
+.footer-paragraph {
   font-family: 'PT Sans Narrow';
   color: #4B4B4B; 
 }
@@ -50,17 +54,11 @@ nav {
 	justify-content: space-around;
 }
 
-article img{
-	border-radius: 10px;
-}
+
 
 .footer-social {
 	display: flex;
 	clear: both;
-}
-
-.visually-hidden {
-	display: none;
 }
 
 ul{
@@ -77,24 +75,28 @@ a:hover {
 }
 
 /*Main of index.html starts*/
-p.news-paragraph {
+article img{
+	border-radius: 10px;
+}
+
+.news-paragraph {
 	font-family: 'Roboto';
 }
 
-p.date {
+.date {
 	font-family: 'Roboto';
 }
 
-p.all-news {
+.all-news {
 	font-family: 'Roboto';
 }
 
-p.news-paragraph {
+.news-paragraph {
     font-size: 17px;
     text-align: left;
 }
 
-p.date {
+.date {
     font-size: 15px;
 }
 

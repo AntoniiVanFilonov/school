@@ -6,7 +6,11 @@ body {
   src: url(D:\Лучший\school\Fonts\PT_Sans-Narrow-Web-Regular);
 }
 
-h1.coursive-titles {
+h1 {
+  margin: 0;
+}
+
+.coursive-titles {
   font-family: 'Lobster';
   vertical-align: middle;
   margin: 0;
@@ -17,7 +21,7 @@ p {
   padding: 10px;
 }
 
-p.footer-paragraph {
+.footer-paragraph {
   font-family: 'PT Sans Narrow';
   color: #4B4B4B; 
 }
@@ -50,10 +54,6 @@ nav {
   justify-content: space-around;
 }
 
-article img{
-	border-radius: 10px;
-}
-
 .footer-social {
   display: flex;
   clear: both;
@@ -75,9 +75,6 @@ a {
 a:hover {
   text-decoration: underline;
 }
-
-
-
 
 /*Main news.html starts*/
 @import url(https://fonts.googleapis.com/css?family=Roboto);
@@ -110,7 +107,7 @@ a:hover {
 
 
 /*object-position: center; */
-  img.left {
+.left {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -129,18 +126,10 @@ a:hover {
   margin-right: 20px;
 }
 
-h1 {
+.news-item {
   padding-top: 15px;
   font-size: 1.3rem;
   color: #4B4B4B;
-}
-
-
-h2 {
-  padding-top: 8px;
-  margin-right: 6px;
-  text-align: right;
-  font-size: 0.8rem;
 }
 
 .separator {
@@ -148,7 +137,7 @@ h2 {
   border: 1px solid #C3C3C3;
 }
 
-p {
+.new-paragraph {
   text-align: justify;
   padding-top: 10px;
   font-size: 0.95rem;
@@ -157,7 +146,7 @@ p {
 }
 
 /* DATE of release */
-h5 {
+.day {
   position: absolute;
   left: 30px;
   bottom: -120px;
@@ -165,7 +154,7 @@ h5 {
   color: #C3C3C3;
 }
 
-h6 {
+.month {
   position: absolute;
   left: 30px;
   bottom: -55px;
@@ -174,15 +163,15 @@ h6 {
 }
 
 /* Those futur buttons */
-ul.news-list {
+.news-list {
   margin-left: 250px;
 }
 
-ul.site-navigation {
+.site-navigation {
   margin: 0;
 }
 
-li.news-list-item2 {
+.news-list-item2 {
   display: inline;
   list-style: none;
   padding-right: 40px;
