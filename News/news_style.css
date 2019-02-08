@@ -9,6 +9,8 @@ body {
 h1.coursive-titles {
   font-family: 'Lobster';
   vertical-align: middle;
+  margin: 0;
+  padding: 0;
 }
 
 p {
@@ -25,77 +27,59 @@ p.footer-paragraph {
   min-height: 80px;
 }
 
-article img{
-	border-radius: 10px;
-}
-
-nav {
-	display: flex;
-	justify-content: space-around;
-}
-
-.site-navigation {
-  display: flex;
-    display: flex;
-    align-items: center;
-    height: 80px;
-}
-
 .site-navigation-item {
   margin: 10px;
 }
 
-.visually-hidden {
-	display: none;
-}
-
-.advantage-list {
-	display: flex;
-	justify-content: space-around;
-}
-
-.advantage-item {
-    margin: 25px;
-}
-
-.advantages {
-   float: left;
-   width: 100%;
-   background-color: wheat;
-
-}
-
-.news {
-	background-color: skyblue;
-	float: left;
-	width: 100%;
-}
-
-
 .main-footer {
-	justify-content: space-between;
-	display: flex;
-	clear: both;
+  justify-content: space-between;
+  display: flex;
+  clear: both;
   border-top: solid #C3C3C3 2px; 
 }
+
+.site-navigation {
+  display: flex;
+  align-items: center;
+  min-height: 80px;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+article img{
+	border-radius: 10px;
+}
+
+.footer-social {
+  display: flex;
+  clear: both;
+}
+
+.visually-hidden {
+  display: none;
+}
+
 ul{
 	list-style-type: none;
 }
 
-.footer-social {
-	display: flex;
-	clear: both;
-}
-
 a {
-	text-decoration: none;
-	color: black;
+  text-decoration: none;
+  color: black;
 }
 
 a:hover {
-	text-decoration: underline;
+  text-decoration: underline;
 }
 
+
+
+
+/*Main news.html starts*/
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 /*Just the background stuff */
 
@@ -204,4 +188,4 @@ li.news-list-item2 {
   padding-right: 40px;
   color: #7B7B7B;
 }
-
+/*Main of news.html ends*/
