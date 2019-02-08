@@ -1,134 +1,72 @@
 body {
-  font-family: 'Caveat', cursive;	
   font-family: 'Roboto', serif;
-  font-family: 'Neucha', cursive;
+  font-family: 'PT Sans Narrow', sans-serif;
   font-family: 'Pacifico', cursive;
   font-family: 'Lobster', cursive;
-
- 
   src: url(D:\Лучший\school\Fonts\PT_Sans-Narrow-Web-Regular);
 }
 
-h1.coursive-titles {
-  font-family: 'Lobster';
+h1{
+  margin: 0;
+}
+
+.logo {
   vertical-align: middle;
+}
+
+.coursive-titles {
+  font-family: 'Lobster';
+  margin-top: 40%;
+  margin-bottom: 40%;
   margin: 0;
   padding: 0;
 }
 
-
-h2 {
-	font-family: 'Roboto';
-}
-h2.h2-info{
-	font-size: 25px;
-}
-
 p {
-	padding: 10px;
+  padding: 10px;
 }
 
-p.info-paragraph {
-	font-family: 'Roboto';
-	font-size: 17px;
-}
-p.info-paragraph2 {
-	font-family: 'Roboto';
-	font-size: 18px;
-	text-align: left;
-	margin-bottom: -0.3%;
-}
-p.info-paragraph_quote{
-	font-size: 50px;
-	font-family: 'Caveat';
-}
-
-p.date {
-	font-family: 'Roboto';
-}
-
-p.all-info {
-	font-family: 'Roboto';
-}
-
-p.date {
-    font-size: 15px;
-}
-
-p.footer-paragraph {
-	font-family: 'Neucha';
-	color: #4B4B4B; 
+.footer-paragraph {
+  font-family: 'PT Sans Narrow';
+  color: #4B4B4B; 
 }
 
 .main-header {
   border-bottom: solid #C3C3C3 2px;
-  min-height: auto;
-  max-height: 100px;
-}
-
-article img{
-	border-radius: 10px;
-}
-
-nav {
-	display: flex;
-	justify-content: space-around;
-}
-
-.site-navigation {
-	display: flex;
-	margin: 0;
-	align-items: center;
+  min-height: 80px;
 }
 
 .site-navigation-item {
-	margin: 10px;
+  margin: 10px;
 }
-
-.visually-hidden {
-	display: none;
-}
-
-.advantage-list {
-	display: flex;
-	justify-content: space-around;
-}
-
-.advantage-item {
-    margin: 25px;
-}
-
-.advantages {
-   float: left;
-   width: 100%;
-
-}
-
-.info {
-	text-align: center;
-	width: 75%;
-	margin-left: 12.5%;
-	margin-right: 12.5%;
-}
-
-.all-info {
-	text-align: right;
-}
-
 
 .main-footer {
-	justify-content: space-between;
-	display: flex;
-	clear: both;
-    border-top: solid #C3C3C3 2px; 
+  justify-content: space-between;
+  display: flex;
+  clear: both;
+  border-top: solid #C3C3C3 2px; 
 }
-ul{
-	list-style-type: none;
+
+.site-navigation-list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+  min-height: 80px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
 }
 
 .footer-social {
 	display: flex;
 	clear: both;
+}
+
+ul{
+	list-style-type: none;
 }
 
 a {
@@ -140,11 +78,67 @@ a:hover {
 	text-decoration: underline;
 }
 
-.all {
-	margin: 10px;
+/*Starting of main*/
+
+.mission {
+	text-align: left;
+	float: left;
+	width: 48%;
 }
 
-time {
-	text-align: left
+.info-paragraph {
+	font-family: 'Roboto', serif;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 5px;
+}
+.info-title {
+	font-family: 'Roboto', serif;
+	text-align: left;
 }
 
+.features {
+	text-align: left;
+	float: right;
+	width: 48%;
+}
+
+.slogan {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+	clear: both;
+	width: 100%;
+	height: 20%;
+
+}
+
+.aim-list {
+	text-align: left;
+}
+
+.aim-paragraph {
+	margin-bottom: 15px;
+	font-size: 15px;
+}
+
+.aim-topic {
+	margin-bottom: 25px;
+	margin-top: 25px;
+	font-size: 20px;
+}
+
+.mission,.features {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  min-height: 20%;
+}
+
+.info-title-slogan {
+	font-family: 'Roboto', serif;
+	text-align: center;
+}
+
+.aims {
+	margin-top: 25px;
+}
