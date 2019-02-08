@@ -10,9 +10,13 @@ h1{
   margin: 0;
 }
 
+.logo {
+	vertical-align: middle;
+}
+
 .coursive-titles {
   font-family: 'Lobster';
-  vertical-align: middle;
+  align-items: center;
   margin: 0;
   padding: 0;
 }
@@ -128,6 +132,7 @@ article img{
 
 .all {
 	margin: 10px;
+	margin-bottom: 25px;
 }
 
 time {
