@@ -88,76 +88,33 @@ a:hover {
 	text-decoration: underline;
 }
 
-/*Main of index.html starts*/
-article img{
+.map {
+	width: 500px;
+	height: 500px;
 	border-radius: 10px;
+	border: solid #c3c3c3 2px;
 }
 
-.news-paragraph {
-	font-family: 'Roboto';
+.map-container {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	float: left;
 }
 
-.date {
-	font-family: 'Roboto';
+.contact-info {
+	float: right;
+    
 }
 
-.all-news {
-	font-family: 'Roboto';
-}
-
-.news-paragraph {
-    font-size: 17px;
-    text-align: left;
-}
-
-.date {
-    font-size: 15px;
-}
-
-.advantage-list {
-	text-align: center;
-	padding: 0;
-	margin: 0;
-	display: flex;
-	justify-content: space-around;
-}
-
-.advantage-item {
-    margin: 25px;
-}
-
-.advantages {
-   float: left;
-   width: 100%;
-   margin: 0;
-   margin-top: 50px;
-   margin-bottom: 50px;
-
-}
-
-.news {
-	text-align: center;
+.whraper-info {
 	width: 75%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
 	margin-left: 12.5%;
 	margin-right: 12.5%;
+} 
+
+.info-paragraph {
+	font-family: 'Roboto',sans-serif;
 }
-
-.last-news-title {
-    margin: 0;
-    font-size: 25px;
-}
-
-.all-news {
-	text-align: right;
-}
-
-.all {
-	margin: 10px;
-	margin-bottom: 25px;
-}
-
-time {
-	text-align: left
-}
-
-

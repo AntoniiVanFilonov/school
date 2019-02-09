@@ -1,4 +1,7 @@
 body {
+  margin:0;
+  margin-left: 10px;
+  margin-right: 10px;
 	font-family: 'Noto Serif', serif;
   font-family: 'PT Sans Narrow', sans-serif;
   font-family: 'Pacifico', cursive;
@@ -10,9 +13,14 @@ h1 {
   margin: 0;
 }
 
+.main-navigation {
+  display: flex;
+  align-items: center;
+}
+
+
 .coursive-titles {
   font-family: 'Lobster';
-  vertical-align: middle;
   margin: 0;
   padding: 0;
 }

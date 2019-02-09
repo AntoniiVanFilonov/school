@@ -1,4 +1,7 @@
 body {
+  margin: 0;
+  margin-left: 10px;
+  margin-right: 10px;
   font-family: 'Roboto', serif;
   font-family: 'PT Sans Narrow', sans-serif;
   font-family: 'Pacifico', cursive;
@@ -10,9 +13,11 @@ h1{
   margin: 0;
 }
 
-.logo {
-  vertical-align: middle;
+.main-navigation {
+	display: flex;
+	align-items: center;
 }
+
 
 .coursive-titles {
   font-family: 'Lobster';
@@ -79,6 +84,10 @@ a:hover {
 }
 
 /*Starting of main*/
+main {
+	margin-left: 10px;
+	margin-right: 10px;
+}
 
 .mission {
 	text-align: left;
@@ -141,4 +150,9 @@ a:hover {
 
 .aims {
 	margin-top: 25px;
+}
+
+.mission-title {
+	display: flex;
+	align-items: center;
 }
