@@ -145,7 +145,6 @@ main {
 
 .info-title-slogan {
 	font-family: 'Roboto', serif;
-	text-align: center;
 }
 
 .aims {
@@ -154,5 +153,21 @@ main {
 
 .mission-title {
 	display: flex;
+	align-items: center;
+}
+
+.features-title {
+	display: flex;
+	align-items: center;
+}
+
+.tasks-title {
+	display: flex;
+	align-items: center;
+}
+
+.slogan-title {
+	display: flex;
+	text-align: center;
 	align-items: center;
 }
